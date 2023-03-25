@@ -1,0 +1,26 @@
+h1{
+    color: red;
+    font-size: 1rem;
+}
+h2{
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+}
+.container{
+    border:  5px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container > div{
+    border: 5px  solid aqua;
+    padding: 3px;
+    border-radius: 10px;
+}
+.container > div:hover{
+    background: yellow;
+}
+#ten-truong{
+    text-decoration: underline;
+}
