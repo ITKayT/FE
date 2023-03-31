@@ -18,9 +18,18 @@ h2{
     padding: 3px;
     border-radius: 10px;
 }
-.container > div:hover{
-    background: yellow;
-}
 #ten-truong{
     text-decoration: underline;
+}
+h5{
+    color: blue;
+    font-size: 1rem;
+    text-align: center;
+}
+.khung{
+    color: blue;
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
