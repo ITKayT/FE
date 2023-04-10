@@ -1,0 +1,99 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.logo{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.menu{
+    flex-grow: 1;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #333333;
+}
+.menu ul li{
+    margin-right: 20px;
+    padding: 5px 5px 10px;
+}
+.menu ul li:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+.container2{
+    display: flex;
+    border-radius: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+.menu2{
+    flex-grow: 1;
+}
+.menu2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: center;
+}
+.noidung1{
+    width: 100px;
+    height: 100px;
+    background-image: url(/images/van-phong.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container3{
+    display: flex;
+    border-radius: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+.menu3{
+    flex-grow: 1;
+}
+.menu3 ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+.ct{
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+}
+.container4{
+    display: flex;
+    border-radius: 10px;
+    padding-right: 10px;
+    align-items: center;
+    background-color: #fff206;
+}
+.menu4{
+    flex-grow: 1;
+}
+.menu4 ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
